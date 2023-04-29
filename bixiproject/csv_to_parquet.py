@@ -1,6 +1,4 @@
 import pandas as pd
-import pyarrow as pa
-import pyarrow.parquet as pq
 
 # Read the CSV files into Pandas dataframes with the correct encoding
 station_status_df = pd.read_csv('station_status.csv', encoding='ISO-8859-1')
