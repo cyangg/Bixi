@@ -5,8 +5,8 @@ from botocore.exceptions import NoCredentialsError
 
 # Set up S3 connection
 s3 = boto3.client('s3',
-                  aws_access_key_id='AKIAU5QLO5SLT33KU5C6',
-                  aws_secret_access_key='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')
+                  aws_access_key_id='******',
+                  aws_secret_access_key='**********')
 bucket_name = 'bixi-database-henry'
 object_name = 'station_information.csv'
 
